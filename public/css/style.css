@@ -1,0 +1,14 @@
+tr.form_edit_author > td:nth-child(3) > input, 
+tr.form_edit_author > td:nth-child(4) > input,
+tr.form_edit_author > td:nth-child(6) > a {
+	margin-top: 59px;
+}
+
+tr.form_edit_author > td:nth-child(6) > a {
+	display: inline-block;
+}
+
+.form-edit-3.form_edit_author > td:nth-child(1),
+.form-edit-3.form_edit_author > td:nth-child(5) {
+    padding-top: 68px;
+}
