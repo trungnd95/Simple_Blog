@@ -20,8 +20,11 @@ class ArticleController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {   $articles = Article::paginate(5);
+    // {   $articles = Article::paginate(5);
+    {
+        $articles = Article::all();
         return view('admin.article.index')->with('articles',$articles);
+    }
     }
 
     /**

@@ -87,7 +87,7 @@ class CateController extends Controller
         $cat = Cate::findOrFail($id);
         $cat->update([
             'name' => $name_cat,
-            'alias' => changeTitle($name_cat);
+            'alias' => changeTitle($name_cat),
             'short_description' => $des_cat,
         ]);
         $arr = array('id' => $id, 'name_cat'=> $name_cat,'des_cat' => $des_cat);

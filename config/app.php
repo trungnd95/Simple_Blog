@@ -144,7 +144,7 @@ return [
         Simple_Blog\Providers\AuthServiceProvider::class,
         Simple_Blog\Providers\EventServiceProvider::class,
         Simple_Blog\Providers\RouteServiceProvider::class,
-        // Hazzard\Comments\CommentsServiceProvider::class,
+        
     ],
 
     /*
